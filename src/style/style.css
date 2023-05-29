@@ -1,0 +1,91 @@
+/* Autor Manuel Hernan Gonzales Rojas*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+}
+/* Estilos especificos del HEADER */
+#logoencabezado{
+        /*ajuste de la imagen */
+        box-sizing: border-box;
+        height: 80px;
+        width: 80px;
+}
+/* FOOTER */
+/*Ajuste de las imagenes */
+.redes{
+    list-style: none;
+    box-sizing: border-box;
+    height: 45px;
+    width: 45px;
+    margin-left: 35px;
+}
+/*Formato del footer */
+footer{
+    padding: 40px;
+    margin: 0px;
+    margin-top: 70px;
+}
+
+
+/* PAGINA INDEX */
+
+.p_info_index{
+    margin-top: 30px;
+    display:grid;
+    grid-template-areas: 
+   ". info_img info_1 ."
+   ". info_img info_2 .";
+   grid-template-columns: 5% auto auto 5%;
+   grid-template-rows: auto auto;
+}
+.p_info_1{
+    grid-area: info_1;
+    padding: 3%;
+}
+.p_info_2{
+    grid-area: info_2;
+    padding: 3%;
+}
+.p_info_img{
+    grid-area: info_img;
+    box-sizing: border-box;
+    justify-self: center;
+    width: 300px;
+}
+@media screen and (max-width:900px) {
+    .p_info_index{
+        display: block;
+        padding: 0% 5% 0% 5%;
+    }
+    .p_info_img{
+        width: 100%;
+    }
+}
+/* INGERNIEROS */
+#section_ingenieros{
+    background-image: url(../publi/images/fondo1.jpg);
+    background-size: cover;
+    padding: 10% 0% 10% 0%;
+
+}
+.foto_ingeniero{
+    box-sizing: border-box;
+    height: 80%;
+    width: 80%;
+}
+.cb_inge{
+    padding: 5% 5% 5% 5%;
+}
+
+#tarjeta{
+    margin: 2%;
+}
+.colabora{
+    box-sizing: border-box;
+    width: 10%;
+}
+
+

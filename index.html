@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- ENCABEZADO Y NAV -->
+    <div class="container-fluid">
+      <div class =" row align-items-center border-bottom border-black">
+        <header class="col-sm-12 col-md-6  col-lg-6 col-xl-5" >
+              <div class="d-flex align-items-center justify-content-center justify-content-sm-center">
+                  <img id="logoencabezado" src="./src/publi/logo/logo.jpg" alt="logoempresa">
+                  <h1 class =""> Smart Home Gonro</h1>  
+              </div>
+        </header>
+        <div class="col-sm-12 col-md-6  col-lg-6 col-xl-7">
+          <nav class="navbar navbar-light">
+            <div class="container-fluid justify-content-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Smart Home Gonro</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">  <a class="nav-link" href="./index.html">Inicio</a></li>
+                    <li class="nav-item">  <a class="nav-link" href="./src/pages/nosotros.html">Nosotros</a></li>
+                    <li class="nav-item">  <a class="nav-link" href="./src/pages/contacto.html">Contacto</a></li>
+                    <li class="nav-item">  <a class="nav-link" href="./src/pages/proyectos.html">Proyectos</a></li>
+                   <li class="nav-item">  <a class="nav-link"href="./src/pages/ingenieros.html">Ingenieros</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- FIN  ENCABEZADO Y NAV -->
+    <!-- MAIN -->
+    <main> 
+        <!-- Carrusel de bootstrap -->
+        <div class="bg-black">
+            <section class="container">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./src/publi/images/novedad1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./src/publi/images/novedad2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./src/publi/images/novedad3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        </div>
+        <!-- usando GRID -->
+        <div class="bg-light">
+          <section class="p_info_index">
+            <div class="p_info_1">
+                <h2>¿Qué es el internet de las cosas? </h2>
+                <p>En los términos más generales, internet de las cosas incluye cualquier objeto o "cosa"que pueda conectarse de manera inalámbrica a una red de Internet. Pero hoy en día, IoT refieremás específicamente cosas conectadas que están equipadas con sensores, software y otrastecnologías que les permiten transmitir y recibir datos con el propósito de informar a los usuarios oautomatizar una acción. Tradicionalmente, la conectividad se lograba principalmente a través de Wi-Fi,mientras que hoy 5G y otros tipos de plataformas de red ofrecen la promesa de manejar enormes data sets,casi en cualquier lugar, con velocidad y confiabilidad. </p>
+                <h3>Importancia: </h3>
+                <ul>
+                  <li><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque nesciunt illo cum in quasi autem nisi temporibus magnam quae qui! Neque, libero! Facere consequatur cum quia tenetur asperiores porro dolor.</p></li>
+                  <li><p>Orem ipsum dolor sit amet consectetur adipisicing elit. Incidunt iure deserunt suscipit explicabo natus labore tempora! Veniam, dicta dolore?</p>            </li>
+                  <li><p>Rem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorum sunt voluptates minima ratione suscipit aliquam laborum reiciendis laboriosam consectetur!</p></li>
+                  <li><p>Ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorum sunt voluptates minima ratione suscipit aliquam laborum reiciendis laboriosam consectetur!</p></li>
+                </ul>
+              </div>
+            <div class="p_info_2">
+                <h3>¿Qué tecnologia han hecho posible el IoT? </h3>
+                <p>Si bien la idea de IoT existe desde hace mucho tiempo, una colección de avances recientes en una serie detecnologías diferentes la ha hecho práctica.Accede a la tecnología de sensores de bajo costo y potencia. Los sensores asequibles y fiables están haciendoposible la tecnología IoT para más fabricantes.Conectividad. Una gran cantidad de protocolos de red para Internet ha facilitado la conexión de sensores a la nubey a otras cosas para lograr una transferenciade datos eficientePlataformas de informática en la nube. El aumento en la disponibilidad de plataformas en la nube permite a lasempresas y a los consumidores acceder a la infraestructura que necesitan para escalar sin tener que administrarlo todo.Aprendizaje automático y analítica. Con los avances en aprendizaje automático y analítica, junto conel acceso a cantidades grandes y variadas de datos almacenados en la nube, las empresas pueden recopilarinformación de forma másrápida y fácil. Por un lado, el surgimiento de estas tecnologías aliadas sigue traspasando los límitesde IoT; por otro, los datos producidos por IoT también alimentan estas tecnologías.Inteligencia artificial (IA) conversacional. Los avances en las redes neuronales han llevado el procesamientodel lenguaje natural (PLN) a los dispositivos IoT (como los asistentes personales digitales Alexa, Cortana y Siri)y los han hecho atractivos, asequibles y viables para uso doméstico.</p>
+            </div>
+            <img class="p_info_img" src="./src/publi/images/explicacion.png" alt="imagen_Explicacion">
+          </section>
+        </div>
+    </main>
+    <!-- fin MAIN -->
+
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark">
+      <div class="container text-white-50">
+        <div class="row">
+          <div class="col-sm-12 col-md-4  col-lg-4 col-xl-4 justify-content-center">
+            <p> <h2> Nosotros</h2><br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, aliquid!
+              ipsum dolor sit amet consectetur adipisicing elit. Vitae, aliquid!
+              ipsum dolor sit amet consectetur adipisicing elit. Vitae, aliquid!
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-4  col-lg-4 col-xl-4 justify-content-center">
+            <h2 id ="textofooter" class="text-center"> Redes Sociales: </h2><br><br>
+        <ul class="list-unstyled d-flex justify-content-around">
+            <li> <a href="https://www.facebook.com/profile.php?id=100080085348306"> <img class="redes" src="./src/publi/images/fb.jpg" alt="facebook"> </a> </li>
+            <li> <a href="https://www.instagram.com/hernan.gonza22/?next=%2F"> <img class="redes" src="./src/publi/images/intagram.jpg" alt="instagram"></a> </li>
+            <li> <a href="https://www.linkedin.com/in/manuel-hernan-gonzales-rojas-73358a260/"> <img class="redes" src="./src/publi/images/linkedin.jpg" alt="linkedin"></a> </li>
+        </ul>
+          </div>
+          <div class="col-sm-12 col-md-4  col-lg-4 col-xl-4 justify-content-center">
+            <p class="text-center"> Autor: Manuel Hernan Gonzales Rojas </p>
+            <p class="text-center"> Proyecto CoderHouse </p>
+            <p class="text-center"> manuelhernangonzalesrojas1999@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- fin FOOTER -->
+
+</body>
+</html>
